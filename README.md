@@ -1,2 +1,8 @@
-# core-engine-lithos
-Geology &amp; Materials Engine (LITHOS) — layered domains, impedance, conductivity, elasticity, absorption.
+# CORE ENGINE — LITHOS (Geology & Materials)
+
+LITHOS defines material truth:
+- layering, density, elasticity
+- conductivity, permittivity, damping
+- outputs effective impedance + material response surfaces
+
+No auth. Deterministic artifacts. Inherits CORE governance.
