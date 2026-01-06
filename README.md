@@ -1,55 +1,34 @@
-# 🪨 CORE ENGINE — LITHOS GOVERNANCE (CANONICAL)
+# LITHOS — Geology & Materials Engine
 
-File: `verticals/lithos/CORE_LITHOS_ENGINE_GOVERNANCE.md`  
-Engine Key: **LITHOS**  
-Authority Level: Engine Governance (Binding)  
-Status: ✅ BINDING | ✅ NON-OPTIONAL  
+LITHOS computes subsurface and material-domain truth.
 
-## 1. Authority & Inheritance
+---
 
-LITHOS is bound by CORE governance and registry contract.
+## Engine Role
 
-## 2. Scope
+**Engine Type:** TRUTH_ENGINE  
+**Domain:** Geology & material response
 
-LITHOS defines layered material truth:
-- impedance and absorption characteristics
-- conductivity and permittivity fields
-- elasticity/damping profiles
-- fracture/moisture inputs where declared
-- effective material response surfaces
+---
 
-## 3. Non-Scope
+## What LITHOS Computes
 
-LITHOS may NOT:
-- infer unrelated project identity
-- produce extraction or drilling recommendations
-- bypass CORE data boundaries
+- layered material models
+- impedance and damping
+- conductivity/permittivity response
+- fracture/void indicators (if modeled)
 
-## 4. Determinism
+---
 
-All material libraries and coefficients used must be versioned and logged.
+## Prohibitions
 
-## 5. Required Artifacts
+LITHOS does NOT:
+- recommend extraction actions
+- infer ownership or intent
+- publish independently
 
-- `ENGINE_MANIFEST.json`
-- `RUN_CONDITIONS.json`
-- `SHA256SUMS.txt`
-- `MATERIAL_STACK.json`
-- `IMPEDANCE_REPORT.json`
-- `CONDUCTIVITY_FIELD.json`
-- `DAMPING_PROFILE.json`
-- `ARTIFACT_INDEX.json`
+---
 
-## 6. Safety & Misuse Controls
+## Governance
 
-Outputs must include:
-- assumptions and limitations
-- warnings where inputs are insufficient
-
-## 7. Publishing Rules
-
-Sealed run required.
-
-## 8. Amendments
-
-Governance review required.
+LITHOS is governed by CORE law.
